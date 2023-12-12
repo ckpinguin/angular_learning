@@ -1,0 +1,2241 @@
+File: src/app/app.component.html
+-----------------------------
+with filtering:
+===============
+      1 Christof
+      1 "content"
+      3 div
+      1 "footer"
+      1 "NavBar"
+Total operands (first run): 7 of 5 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/app.component.html: 5 : 7
+
+
+File: src/app/app.component.spec.ts
+-----------------------------
+with filtering:
+===============
+      1 ActivatedRoute
+      1 '@angular/core/testing'
+      1 '@angular/forms'
+      1 '@angular/platform-browser'
+      1 '@angular/router'
+      1 '@angular/router/testing'
+      1 any
+      1 './app.component'
+      4 AppComponent
+      1 'AppComponent'
+      1 async
+      2 BlogItemComponent
+      2 BlogListComponent
+      4 compiled
+      3 component
+      1 ComponentFixture
+      1 componentInstance
+      1 declarations
+      1 'div /deep/ .title'
+      1 'div /deep/ .title > h1'
+      2 EditBlogEntryFormComponent
+      4 fixture
+      2 FormsModule
+      1 imports
+      1 './modules/blog/blog-item/blog-item.component'
+      1 './modules/blog/blog-list/blog-list.component'
+      1 './modules/blog/edit-blog-entry-form/edit-blog-entry-form.component'
+      1 './modules/shared/shared.module'
+      1 nativeElement
+      1 NavigationEnd
+      1 Router
+      2 RouterTestingModule
+      2 SharedModule
+      1 'should create the app'
+      1 'should have a div tag with class title'
+      1 'should have a h1 tag within the title div'
+      3 TestBed
+      1 Title
+      4 titleDiv
+      2 toBeDefined
+Total operands (first run): 63 of 40 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/app.component.spec.ts: 40 : 63
+
+
+File: src/app/app.component.ts
+-----------------------------
+with filtering:
+===============
+      3 activatedRoute
+      2 ActivatedRoute
+      1 '@angular/core'
+      1 '@angular/platform-browser'
+      1 '@angular/router'
+      1 AppComponent
+      1 './app.component.html'
+      1 './app.component.styl'
+      1 'ck-root'
+      1 Component
+      2 data
+      3 defaultTitle
+      3 event
+      1 events
+      2 firstChild
+      1 Inject
+      2 NavigationEnd
+      2 OnInit
+      5 route
+      2 router
+      2 Router
+      1 'rxjs/add/operator/filter'
+      1 selector
+      2 snapshot
+      1 styleUrls
+      1 templateUrl
+      7 title
+      2 'title'
+      2 Title
+      4 titleService
+Total operands (first run): 59 of 30 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/app.component.ts: 30 : 59
+
+
+File: src/app/app.module.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core'
+      1 '@angular/platform-browser'
+      1 '@angular/platform-browser/animations'
+      1 './app.component'
+      3 AppComponent
+      1 AppModule
+      1 './app.routing'
+      2 appRouting
+      1 './app.tokens'
+      1 AUTH_ENABLED
+      2 BlogService
+      1 bootstrap
+      2 BrowserAnimationsModule
+      2 BrowserModule
+      1 declarations
+      1 imports
+      2 LoginService
+      1 './modules/auth/login/login.service'
+      1 './modules/auth/user/user.service'
+      1 './modules/blog/blog.service'
+      1 './modules/shared/shared.module'
+      1 NgModule
+      1 provide
+      1 providers
+      1 routingComponents
+      2 routingProviders
+      2 SharedModule
+      2 Title
+      2 tokens
+      1 true
+      2 UserService
+      1 useValue
+Total operands (first run): 44 of 32 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/app.module.ts: 32 : 44
+
+
+File: src/app/app.routing.ts
+-----------------------------
+with filtering:
+===============
+      1 ''
+      1 'admin'
+      1 '@angular/router'
+      1 './app.component'
+      1 AppComponent
+      1 'app/modules/admin/admin.module#AdminModule'
+      1 'app/modules/auth/auth.module#AuthModule'
+      1 'app/modules/blog/blog.module#BlogModule'
+      2 appRoutes
+      1 appRouting
+      1 AuthModule
+      2 '/blog'
+      1 'blog'
+      1 BlogModule
+      1 canLoad
+      1 'CK\'
+      1 data
+      2 'full'
+      1 'home'
+      3 loadChildren
+      1 'login'
+      3 LoginGuard
+      1 './modules/auth/auth.module'
+      1 './modules/auth/login/login.guard'
+      1 './modules/blog/blog.module'
+      5 path
+      2 pathMatch
+      1 PreloadAllModules
+      1 preloadingStrategy
+      2 redirectTo
+      2 RouterModule
+      2 Routes
+      1 routingComponents
+      1 routingProviders
+      1 s
+      1 title
+Total operands (first run): 51 of 36 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/app.routing.ts: 36 : 51
+
+
+File: src/app/app.tokens.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core'
+      1 'auth-enabled'
+      1 AUTH_ENABLED
+      1 OpaqueToken
+Total operands (first run): 4 of 4 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/app.tokens.ts: 4 : 4
+
+
+File: src/app/modules/admin/admin-page/admin-page.component.html
+-----------------------------
+with filtering:
+===============
+Total operands (first run):  of 0 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/admin/admin-page/admin-page.component.html: 0 : 0
+
+
+File: src/app/modules/admin/admin-page/admin-page.component.spec.ts
+-----------------------------
+with filtering:
+===============
+      1 ActivatedRoute
+      1 './admin-page.component'
+      4 AdminPageComponent
+      1 'AdminPageComponent'
+      1 '@angular/core/testing'
+      1 '@angular/router'
+      1 '@angular/router/testing'
+      1 async
+      3 component
+      1 ComponentFixture
+      1 componentInstance
+      1 declarations
+      3 fixture
+      1 imports
+      1 NavigationEnd
+      1 Router
+      2 RouterTestingModule
+      1 'should create'
+      3 TestBed
+Total operands (first run): 29 of 19 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/admin/admin-page/admin-page.component.spec.ts: 19 : 29
+
+
+File: src/app/modules/admin/admin-page/admin-page.component.ts
+-----------------------------
+with filtering:
+===============
+      1 activatedRoute
+      1 ActivatedRoute
+      1 AdminPageComponent
+      1 './admin-page.component.html'
+      1 '@angular/core'
+      1 '@angular/forms'
+      1 '@angular/router'
+      1 'ck-admin-page'
+      1 Component
+      1 NgForm
+      2 OnInit
+      1 selector
+      1 string
+      1 templateUrl
+      1 title
+Total operands (first run): 16 of 15 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/admin/admin-page/admin-page.component.ts: 15 : 16
+
+
+File: src/app/modules/admin/admin.module.ts
+-----------------------------
+with filtering:
+===============
+      1 AdminModule
+      1 './admin-page/admin-page.component'
+      1 AdminPageComponent
+      1 './admin.routing'
+      1 adminRouting
+      2 adminRoutingComponents
+      1 '@angular/core'
+      1 declarations
+      1 imports
+      1 NgModule
+      2 SharedModule
+      1 '../shared/shared.module'
+Total operands (first run): 14 of 12 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/admin/admin.module.ts: 12 : 14
+
+
+File: src/app/modules/admin/admin.routing.ts
+-----------------------------
+with filtering:
+===============
+      1 ''
+      1 'Admin'
+      1 './admin-page/admin-page.component'
+      2 AdminPageComponent
+      2 adminRoutes
+      1 adminRouting
+      1 adminRoutingComponents
+      1 adminRoutingProviders
+      1 '@angular/router'
+      1 component
+      1 data
+      1 path
+      2 RouterModule
+      2 Routes
+      1 title
+Total operands (first run): 19 of 15 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/admin/admin.routing.ts: 15 : 19
+
+
+File: src/app/modules/auth/auth-component/auth.component.spec.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core/testing'
+      1 '@angular/router/testing'
+      1 async
+      1 './auth.component'
+      4 AuthComponent
+      1 'AuthComponentComponent'
+      3 component
+      1 ComponentFixture
+      1 componentInstance
+      1 declarations
+      3 fixture
+      1 imports
+      2 RouterTestingModule
+      1 'should create'
+      3 TestBed
+Total operands (first run): 25 of 15 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/auth/auth-component/auth.component.spec.ts: 15 : 25
+
+
+File: src/app/modules/auth/auth-component/auth.component.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core'
+      1 AuthComponent
+      1 'ck-auth-component'
+      1 Component
+      1 selector
+Total operands (first run): 5 of 5 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/auth/auth-component/auth.component.ts: 5 : 5
+
+
+File: src/app/modules/auth/auth.module.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core'
+      1 AuthModule
+      1 './auth.routing'
+      1 authRouting
+      2 authRoutingComponents
+      1 declarations
+      1 imports
+      1 LoginFormComponent
+      1 './login/login-form/login-form.component'
+      1 NgModule
+      2 SharedModule
+      1 '../shared/shared.module'
+      1 UserStore
+      1 './user/user.store'
+Total operands (first run): 16 of 14 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/auth/auth.module.ts: 14 : 16
+
+
+File: src/app/modules/auth/auth.routing.ts
+-----------------------------
+with filtering:
+===============
+      2 ''
+      1 '@angular/router'
+      3 AuthComponent
+      1 './auth-component/auth.component'
+      2 authRoutes
+      1 authRouting
+      1 authRoutingComponents
+      1 authRoutingProviders
+      1 children
+      2 component
+      1 data
+      1 'Login'
+      1 './login/login-page/login-page.component'
+      2 LoginPageComponent
+      2 path
+      2 RouterModule
+      2 Routes
+      1 title
+Total operands (first run): 27 of 18 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/auth/auth.routing.ts: 18 : 27
+
+
+File: src/app/modules/auth/login/login-form/login-form.component.html
+-----------------------------
+with filtering:
+===============
+      1 "4" maxlength="32"
+      2 button
+      2 "button" class="btn btn-default"
+      2 click
+      2 div
+      2 error
+      1 form
+      2 "form-group"
+      1 "!form.valid"
+      2 input
+      1 "Name eingeben."
+      1 "name" name="name"
+      1 "name" text="Name"
+      1 "ngForm"
+      2 ngModel
+      1 ngSubmit
+      1 novalidate
+      1 "onCancel(true)"
+      1 "onSubmit(form.value)"
+      1 "onSubmit(form.value); form.reset()"
+      1 "password" class="form-control"
+      1 "password" name="password"
+      1 "password" text="Passwort"
+      1 "Passwort eingeben."
+      2 required
+      1 "text" class="form-control"
+Total operands (first run): 35 of 26 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/auth/login/login-form/login-form.component.html: 26 : 35
+
+
+File: src/app/modules/auth/login/login-form/login-form.component.spec.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core/testing'
+      1 '@angular/router/testing'
+      1 async
+      3 component
+      1 ComponentFixture
+      1 componentInstance
+      1 declarations
+      3 fixture
+      1 imports
+      1 inject
+      1 './login-form.component'
+      4 LoginFormComponent
+      1 'LoginFormComponent'
+      1 '../login.service'
+      3 LoginService
+      2 MockUserService
+      3 NavigationService
+      3 provide
+      1 providers
+      2 RouterTestingModule
+      2 SharedModule
+      1 '../../../shared/navigation.service'
+      1 '../../../shared/shared.module'
+      1 'should create'
+      2 TestBed
+      3 useClass
+      2 UserService
+      1 '../../user/user.service'
+      1 '../../user/user.service.mock'
+Total operands (first run): 49 of 29 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/auth/login/login-form/login-form.component.spec.ts: 29 : 49
+
+
+File: src/app/modules/auth/login/login-form/login-form.component.ts
+-----------------------------
+with filtering:
+===============
+      3 activatedRoute
+      2 ActivatedRoute
+      1 '@angular/core'
+      1 '@angular/forms'
+      1 '@angular/material'
+      1 '@angular/router'
+      1 any
+      1 boolean
+      1 cancel
+      1 'ck-login-form'
+      1 Component
+      2 duration
+      1 EventEmitter
+      3 form
+      3 formValue
+      1 'Login failed.'
+      1 LoginFormComponent
+      1 './login-form.component.html'
+      1 './login-form.component.styl'
+      1 '../login.service'
+      2 loginService
+      2 LoginService
+      1 MdSnackBar
+      1 name
+      3 navigationService
+      2 NavigationService
+      3 NgForm
+      2 'OK'
+      1 password
+      6 queryParams
+      1 router
+      2 Router
+      1 selector
+      1 '../../../shared/navigation.service'
+      3 snackBar
+      2 snapshot
+      1 styleUrls
+      2 success
+      1 templateUrl
+      1 ViewChild
+      1 `Welcome, ${formValue.name}. You have logged in successfully.`
+      2 5000
+Total operands (first run): 69 of 42 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/auth/login/login-form/login-form.component.ts: 42 : 69
+
+
+File: src/app/modules/auth/login/login-page/login-page.component.html
+-----------------------------
+with filtering:
+===============
+      1 Already
+      1 currentUser
+      1 form
+      1 in
+      1 logged
+      1 onCancel
+      1 "onCancel($event)" (onSubmit)="onLogin($event)"
+      1 title
+      1 user
+      1 with
+Total operands (first run): 10 of 10 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/auth/login/login-page/login-page.component.html: 10 : 10
+
+
+File: src/app/modules/auth/login/login-page/login-page.component.spec.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core/testing'
+      1 '@angular/router/testing'
+      1 async
+      3 component
+      1 ComponentFixture
+      1 componentInstance
+      1 declarations
+      3 fixture
+      1 imports
+      2 LoginFormComponent
+      1 '../login-form/login-form.component'
+      1 './login-page.component'
+      4 LoginPageComponent
+      1 'LoginPageComponent'
+      1 '../login.service'
+      3 LoginService
+      2 MockUserService
+      3 NavigationService
+      3 provide
+      1 providers
+      2 RouterTestingModule
+      2 SharedModule
+      1 '../../../shared/navigation.service'
+      1 '../../../shared/shared.module'
+      1 'should create'
+      3 TestBed
+      3 useClass
+      2 UserService
+      1 '../../user/user.service'
+      1 '../../user/user.service.mock'
+Total operands (first run): 52 of 30 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/auth/login/login-page/login-page.component.spec.ts: 30 : 52
+
+
+File: src/app/modules/auth/login/login-page/login-page.component.ts
+-----------------------------
+with filtering:
+===============
+      2 activatedRoute
+      1 ActivatedRoute
+      1 '@angular/core'
+      1 '@angular/forms'
+      1 '@angular/router'
+      1 'ck-login-page'
+      1 Component
+      2 console
+      4 currentUser
+      5 data
+      3 debug
+      1 '../../../../../debug'
+      2 false
+      1 'is logged in!'
+      1 LoginPageComponent
+      1 './login-page.component.html'
+      1 '../login.service'
+      4 loginService
+      2 LoginService
+      3 name
+      1 NgForm
+      1 'nobody logged in yet'
+      2 OnInit
+      1 selector
+      4 showForm
+      1 snapshot
+      2 string
+      1 templateUrl
+      2 title
+      1 'title'
+      2 true
+      1 undefined
+      1 User
+      1 'User'
+      1 '../../user/model-interfaces'
+Total operands (first run): 60 of 35 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/auth/login/login-page/login-page.component.ts: 35 : 60
+
+
+File: src/app/modules/auth/login/login.guard.ts
+-----------------------------
+with filtering:
+===============
+      2 ActivatedRouteSnapshot
+      1 '@angular/core'
+      1 '@angular/router'
+      2 CanActivate
+      2 CanLoad
+      1 false
+      1 Injectable
+      1 '/login'
+      1 LoginGuard
+      1 './login.service'
+      2 loginService
+      2 LoginService
+      1 Observable
+      1 path
+      1 queryParams
+      7 redirect
+      1 route
+      1 Route
+      2 router
+      2 Router
+      1 routerSnapshot
+      1 RouterStateSnapshot
+      1 routeSnapshot
+      1 'rxjs/Observable'
+      1 string
+      1 true
+      1 url
+Total operands (first run): 40 of 27 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/auth/login/login.guard.ts: 27 : 40
+
+
+File: src/app/modules/auth/login/login.service.mock.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core'
+      1 BehaviorSubject
+      2 boolean
+      2 console
+      3 _currentUser
+      1 err
+      5 false
+      4 id
+      1 Injectable
+      4 loggedIn
+      1 md5
+      1 'md5'
+      1 MockLoginService
+      3 name
+      1 Observable
+      3 password
+      1 'password correct, logging in'
+      1 'password wrong!'
+      5 result
+      1 'rxjs/BehaviorSubject'
+      1 'rxjs/Observable'
+      5 string
+      2 true
+      5 user
+      1 User
+      1 '../user/model-interfaces'
+      3 userService
+      2 UserService
+      1 '../user/user.service'
+      2 void
+Total operands (first run): 65 of 30 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/auth/login/login.service.mock.ts: 30 : 65
+
+
+File: src/app/modules/auth/login/login.service.spec.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core/testing'
+      1 inject
+      1 './login.service'
+      4 LoginService
+      1 'LoginService'
+      2 MockUserService
+      1 provide
+      1 providers
+      2 service
+      1 'should inject'
+      2 TestBed
+      1 useClass
+      2 UserService
+      1 '../user/user.service'
+      1 '../user/user.service.mock'
+Total operands (first run): 22 of 15 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/auth/login/login.service.spec.ts: 15 : 22
+
+
+File: src/app/modules/auth/login/login.service.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core'
+      1 BehaviorSubject
+      2 boolean
+      2 console
+      3 _currentUser
+      3 debug
+      1 '../../../../debug'
+      1 err
+      5 false
+      4 id
+      1 Injectable
+      4 loggedIn
+      1 LoginService
+      1 md5
+      1 'md5'
+      3 name
+      1 Observable
+      3 password
+      1 'password correct, logging in'
+      1 'password wrong!'
+      5 result
+      1 'rxjs/BehaviorSubject'
+      1 'rxjs/Observable'
+      5 string
+      2 true
+      5 user
+      1 User
+      1 '../user/model-interfaces'
+      3 userService
+      2 UserService
+      1 '../user/user.service'
+      2 void
+Total operands (first run): 69 of 32 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/auth/login/login.service.ts: 32 : 69
+
+
+File: src/app/modules/auth/user/model-interfaces.ts
+-----------------------------
+with filtering:
+===============
+      4 string
+      1 User
+Total operands (first run): 5 of 2 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/auth/user/model-interfaces.ts: 2 : 5
+
+
+File: src/app/modules/auth/user/user.service.mock.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core'
+      1 BehaviorSubject
+      1 console
+      1 'creating new empty user: '
+      2 id
+      1 initialUsers
+      1 './initialUsers'
+      1 Injectable
+      1 length
+      5 list
+      1 MockUserService
+      1 './model-interfaces'
+      2 name
+      1 Observable
+      1 'rxjs/BehaviorSubject'
+      1 'rxjs/Observable'
+      4 user
+      1 User
+      1 void
+      1 1
+Total operands (first run): 29 of 20 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/auth/user/user.service.mock.ts: 20 : 29
+
+
+File: src/app/modules/auth/user/user.service.spec.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core/testing'
+      1 inject
+      1 providers
+      2 service
+      1 'should inject'
+      2 TestBed
+      1 './user.service'
+      4 UserService
+      1 'UserService'
+      1 './user.store'
+      2 UserStore
+Total operands (first run): 17 of 11 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/auth/user/user.service.spec.ts: 11 : 17
+
+
+File: src/app/modules/auth/user/user.service.ts
+-----------------------------
+with filtering:
+===============
+      2 actionType
+      2 ADD
+      1 '@angular/core'
+      1 BehaviorSubject
+      1 console
+      1 'creating new empty user: '
+      3 data
+      2 debug
+      1 '../../../../debug'
+      2 EDIT
+      5 id
+      2 initialUsers
+      1 './initialUsers'
+      1 Injectable
+      1 length
+      5 list
+      2 LOAD
+      1 './model-interfaces'
+      2 name
+      1 Observable
+      2 REMOVE
+      1 'rxjs/BehaviorSubject'
+      1 'rxjs/Observable'
+      1 string
+      3 type
+      7 user
+      2 User
+      2 users
+      1 UserService
+      1 './user.store'
+      6 userStore
+      2 UserStore
+      3 void
+      1 1
+Total operands (first run): 70 of 34 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/auth/user/user.service.ts: 34 : 70
+
+
+File: src/app/modules/auth/user/user.store.ts
+-----------------------------
+with filtering:
+===============
+      4 '-'
+      1 0x10000
+     10 action
+      2 ADD
+      1 'ADD'
+      1 all
+      1 BehaviorSubject
+      2 console
+      6 data
+      3 debug
+      1 '../../../../debug'
+      2 EDIT
+      1 'EDIT'
+      3 editedEntry
+      5 entry
+      1 guid
+      5 id
+      1 is
+      2 LOAD
+      1 'LOAD'
+      2 Math
+      1 './model-interfaces'
+      1 'new state: '
+      1 only
+      1 place
+      1 propagate
+      1 'received action: '
+      2 REMOVE
+      1 'REMOVE'
+      1 'rxjs/BehaviorSubject'
+      1 s4
+      1 state
+      1 store
+      2 the
+      1 to
+      2 type
+      1 User
+      8 users
+      3 UserStore
+      1 where
+      2 1
+      1 16
+Total operands (first run): 89 of 42 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/auth/user/user.store.ts: 42 : 89
+
+
+File: src/app/modules/blog/blog-item/blog-item.component.html
+-----------------------------
+with filtering:
+===============
+      1 "blog-image"
+      1 "blog-summary"
+      1 click
+      5 div
+      1 "fa fa-edit"
+      1 "fa fa-trash"
+      1 hr
+      1 img
+      1 "[ item.id, 'edit' ]"
+      1 "item.image" [src]="imageWithPath" [alt]="item.title"
+      1 "item-outlet"
+      1 "onDelete(item.id)"
+Total operands (first run): 16 of 12 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/blog/blog-item/blog-item.component.html: 12 : 16
+
+
+File: src/app/modules/blog/blog-item/blog-item.component.spec.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core/testing'
+      1 '@angular/router/testing'
+      1 async
+      1 './blog-item.component'
+      4 BlogItemComponent
+      1 'BlogItemComponent'
+      1 '../blog.service'
+      2 BlogService
+      1 '../blog.service.mock'
+      3 component
+      1 ComponentFixture
+      1 componentInstance
+      1 declarations
+      3 fixture
+      1 imports
+      2 MockBlogService
+      1 provide
+      1 providers
+      2 RouterTestingModule
+      1 SharedModule
+      1 '../../shared/shared.module'
+      1 'should create'
+      3 TestBed
+      1 useClass
+Total operands (first run): 36 of 24 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/blog/blog-item/blog-item.component.spec.ts: 24 : 36
+
+
+File: src/app/modules/blog/blog-item/blog-item.component.ts
+-----------------------------
+with filtering:
+===============
+      1 ''
+      2 activatedRoute
+      2 ActivatedRoute
+      1 '@angular/core'
+      1 '@angular/router'
+      1 any
+      1 'assets/images/'
+      2 BlogEntry
+      1 BlogItemComponent
+      1 './blog-item.component.html'
+      1 './blog-item.component.styl'
+      1 '../blog.service'
+      3 blogService
+      2 BlogService
+      1 'ck-blog-item'
+      1 Component
+      1 console
+      2 debug
+      1 '../../../../debug'
+      1 './edit'
+      1 get
+      8 id
+      1 'id'
+      1 image
+      1 Input
+      6 item
+      1 '../model-interfaces'
+      1 navigationExtras
+      2 OnDestroy
+      2 OnInit
+      3 params
+      1 queryParams
+      1 'received route param id: '
+      2 router
+      2 Router
+      3 routeSubscription
+      1 'rxjs/Subscription'
+      1 selector
+      2 string
+      1 styleUrls
+      2 Subscription
+      1 templateUrl
+      1 typeof
+      1 'undefined'
+Total operands (first run): 73 of 44 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/blog/blog-item/blog-item.component.ts: 44 : 73
+
+
+File: src/app/modules/blog/blog-list/blog-list.component.html
+-----------------------------
+with filtering:
+===============
+      1 container
+      1 "entry"
+      1 "let entry of entries$ | async"
+Total operands (first run): 3 of 3 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/blog/blog-list/blog-list.component.html: 3 : 3
+
+
+File: src/app/modules/blog/blog-list/blog-list.component.spec.ts
+-----------------------------
+with filtering:
+===============
+      1 ActivatedRoute
+      1 '@angular/core/testing'
+      1 '@angular/forms'
+      1 '@angular/router'
+      1 '@angular/router/testing'
+      1 async
+      1 '../blog-item/blog-item.component'
+      2 BlogItemComponent
+      1 './blog-list.component'
+      4 BlogListComponent
+      1 'BlogListComponent'
+      1 '../blog.service'
+      2 BlogService
+      1 '../blog.service.mock'
+      3 component
+      1 ComponentFixture
+      1 componentInstance
+      1 declarations
+      3 fixture
+      2 FormsModule
+      1 imports
+      1 inject
+      2 MockBlogService
+      1 NavigationEnd
+      1 provide
+      1 providers
+      1 Router
+      2 RouterTestingModule
+      2 SharedModule
+      1 '../../shared/shared.module'
+      1 'should create'
+      3 TestBed
+      1 useClass
+Total operands (first run): 48 of 33 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/blog/blog-list/blog-list.component.spec.ts: 33 : 48
+
+
+File: src/app/modules/blog/blog-list/blog-list.component.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core'
+      1 BlogEntry
+      1 BlogListComponent
+      1 './blog-list.component.html'
+      1 '../blog.service'
+      2 blogService
+      2 BlogService
+      1 'ck-blog-list'
+      1 Component
+      1 Inject
+      1 Input
+      1 '../model-interfaces'
+      1 Observable
+      2 OnInit
+      1 'rxjs/Observable'
+      1 selector
+      1 templateUrl
+Total operands (first run): 20 of 17 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/blog/blog-list/blog-list.component.ts: 17 : 20
+
+
+File: src/app/modules/blog/blog-page/blog-page.component.html
+-----------------------------
+with filtering:
+===============
+      1 Attention
+      1 "attention-outlet"
+      1 "btn"
+      1 button
+      1 Create
+      1 "[ 'new' ]"
+      1 New
+      1 outlet
+      1 title
+Total operands (first run): 9 of 9 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/blog/blog-page/blog-page.component.html: 9 : 9
+
+
+File: src/app/modules/blog/blog-page/blog-page.component.spec.ts
+-----------------------------
+with filtering:
+===============
+      1 '/'
+      1 ''
+      2 ActivatedRoute
+      1 '@angular/common'
+      1 '@angular/core/testing'
+      1 '@angular/router'
+      1 '@angular/router/testing'
+      1 any
+      2 APP_BASE_HREF
+      1 async
+      3 'Blog'
+      1 './blog-page.component'
+      5 BlogPageComponent
+      1 'BlogPageComponent'
+      1 '../blog.service'
+      2 BlogService
+      1 '../blog.service.mock'
+      4 compiled
+      1 'compiled: '
+      4 component
+      1 ComponentFixture
+      1 componentInstance
+      1 console
+      2 data
+      1 debugElement
+      1 declarations
+      1 'div /deep/ .title > h1'
+      4 fixture
+      1 imports
+      1 ' in a h1 tag'
+      2 MockBlogService
+      1 nativeElement
+      1 NavigationEnd
+      1 path
+      3 provide
+      1 providers
+      1 Router
+      2 RouterTestingModule
+      2 SharedModule
+      1 '../../shared/shared.module'
+      1 'should create'
+      1 'should render \'
+      1 snapshot
+      3 TestBed
+      1 textContent
+      2 title
+      2 titleText
+      1 useClass
+      2 useValue
+Total operands (first run): 78 of 49 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/blog/blog-page/blog-page.component.spec.ts: 49 : 78
+
+
+File: src/app/modules/blog/blog-page/blog-page.component.ts
+-----------------------------
+with filtering:
+===============
+      1 '/'
+      3 activatedRoute
+      1 'activatedRoute: '
+      2 ActivatedRoute
+      1 '@angular/core'
+      1 '@angular/router'
+      2 BlogEntry
+      1 BlogPageComponent
+      1 './blog-page.component.html'
+      1 './blog-page.component.styl'
+      1 '../blog.service'
+      3 blogService
+      1 BlogService
+      1 callPath
+      1 'ck-blog-page'
+      1 Component
+      2 console
+      1 data
+      3 debug
+      1 '../../../../debug'
+      2 entry
+      4 event
+      1 events
+      3 false
+      1 'last entry: '
+      1 '../model-interfaces'
+      2 NavigationEnd
+      1 'new'
+      3 newEntry
+      2 OnInit
+      4 pathNew
+      2 router
+      2 Router
+      1 selector
+      1 snapshot
+      2 string
+      1 styleUrls
+      1 templateUrl
+      2 title
+      1 'title'
+      1 true
+      1 'url'
+Total operands (first run): 68 of 42 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/blog/blog-page/blog-page.component.ts: 42 : 68
+
+
+File: src/app/modules/blog/blog.module.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core'
+      1 './blog-item/blog-item.component'
+      2 BlogItemComponent
+      1 './blog-list/blog-list.component'
+      2 BlogListComponent
+      1 BlogModule
+      1 './blog.routing'
+      1 blogRouting
+      2 blogRoutingComponents
+      1 declarations
+      1 imports
+      1 NgModule
+      2 SharedModule
+      1 '../shared/shared.module'
+Total operands (first run): 18 of 14 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/blog/blog.module.ts: 14 : 18
+
+
+File: src/app/modules/blog/blog.routing.ts
+-----------------------------
+with filtering:
+===============
+      2 ''
+      1 '@angular/router'
+      1 '../auth/login/login.guard'
+      1 'Blog'
+      1 './blog-item/blog-item.component'
+      2 BlogItemComponent
+      1 './blog-list/blog-list.component'
+      2 BlogListComponent
+      1 './blog-page/blog-page.component'
+      3 BlogPageComponent
+      2 blogRoutes
+      1 blogRouting
+      1 blogRoutingComponents
+      1 blogRoutingProviders
+      2 canActivate
+      2 children
+      5 component
+      3 data
+      1 'edit'
+      3 EditBlogEntryFormComponent
+      1 './edit-blog-entry-form/edit-blog-entry-form.component'
+      1 'Edit entry'
+      1 'full'
+      1 here
+      1 ':id'
+      1 is
+      1 'list-outlet'
+      4 LoginGuard
+      1 'new'
+      1 'New entry'
+      2 outlet
+      5 path
+      1 pathMatch
+      2 RouterModule
+      2 Routes
+      3 title
+Total operands (first run): 64 of 36 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/blog/blog.routing.ts: 36 : 64
+
+
+File: src/app/modules/blog/blog.service.mock.ts
+-----------------------------
+with filtering:
+===============
+      4 '-'
+      1 0x10000
+      1 '@angular/core'
+      1 BehaviorSubject
+      1 BlogEntry
+      1 console
+      1 'creating new empty entry: '
+      2 entry
+      1 guid
+      2 id
+      1 initialEntries
+      1 './initialEntries'
+      1 Injectable
+      1 length
+      4 list
+      2 Math
+      1 MockBlogService
+      1 './model-interfaces'
+      1 Observable
+      1 'rxjs/add/operator/do'
+      1 'rxjs/add/operator/find'
+      1 'rxjs/add/operator/map'
+      1 'rxjs/BehaviorSubject'
+      1 'rxjs/Observable'
+      1 s4
+      1 void
+      3 1
+      1 16
+Total operands (first run): 39 of 28 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/blog/blog.service.mock.ts: 28 : 39
+
+
+File: src/app/modules/blog/blog.service.spec.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core/testing'
+      1 './blog.service'
+      4 BlogService
+      1 'BlogServiceService'
+      1 './blog.store'
+      2 BlogStore
+      1 inject
+      1 providers
+      2 service
+      1 'should inject'
+      2 TestBed
+Total operands (first run): 17 of 11 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/blog/blog.service.spec.ts: 11 : 17
+
+
+File: src/app/modules/blog/blog.service.ts
+-----------------------------
+with filtering:
+===============
+      4 '-'
+      1 0x10000
+      2 actionType
+      2 ADD
+      1 '@angular/core'
+      1 BehaviorSubject
+      2 BlogEntry
+      1 BlogService
+      1 './blog.store'
+      6 blogStore
+      2 BlogStore
+      1 console
+      1 'creating new empty entry: '
+      3 data
+      2 debug
+      1 '../../../debug'
+      2 EDIT
+      2 entries
+      5 entry
+      1 guid
+      5 id
+      2 initialEntries
+      1 './initialEntries'
+      1 Injectable
+      1 length
+      4 list
+      2 LOAD
+      2 Math
+      1 './model-interfaces'
+      1 Observable
+      2 REMOVE
+      1 'rxjs/add/operator/do'
+      1 'rxjs/add/operator/find'
+      1 'rxjs/add/operator/map'
+      1 'rxjs/BehaviorSubject'
+      1 'rxjs/Observable'
+      1 s4
+      1 string
+      3 type
+      3 void
+      3 1
+      1 16
+Total operands (first run): 80 of 42 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/blog/blog.service.ts: 42 : 80
+
+
+File: src/app/modules/blog/blog.store.ts
+-----------------------------
+with filtering:
+===============
+      4 '-'
+      1 0x10000
+     10 action
+      2 ADD
+      1 'ADD'
+      1 BehaviorSubject
+      1 BlogEntry
+      3 BlogStore
+      2 console
+      6 data
+      3 debug
+      1 '../../../debug'
+      2 EDIT
+      1 'EDIT'
+      3 editedEntry
+      8 entries
+      5 entry
+      1 guid
+      5 id
+      2 LOAD
+      1 'LOAD'
+      2 Math
+      1 './model-interfaces'
+      1 'new state: '
+      1 'received action: '
+      2 REMOVE
+      1 'REMOVE'
+      1 'rxjs/BehaviorSubject'
+      1 s4
+      2 type
+      2 1
+      1 16
+Total operands (first run): 78 of 32 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/blog/blog.store.ts: 32 : 78
+
+
+File: src/app/modules/blog/edit-blog-entry-form/edit-blog-entry-form.component.html
+-----------------------------
+with filtering:
+===============
+      1 "5" maxlength="128"
+      1 "author" name="author"
+      1 "Bildadresse eingeben."
+      1 Blogeintrag
+      2 button
+      1 "button" class="btn btn-default"
+      1 click
+      3 div
+      1 "entry.author" #author="ngModel"
+      1 "entry.id" #id="ngModel"
+      1 "entry.image" #image="ngModel"
+      1 "entry.text" #text="ngModel"
+      1 "entry.title" #title="ngModel"
+      3 error
+      1 form
+      1 "form-control" id="text" name="text"
+      1 "form-control" type="text" id="image" name="image"
+      3 "form-group"
+      1 "form.pristine || !form.valid"
+      1 "form.submitting"
+      2 "hidden" class="hidden"
+      1 "id" name="id"
+      1 "image" text="Bild-URL"
+      4 input
+      1 "ngForm" *ngIf="show"
+      5 ngModel
+      1 ngSubmit
+      1 novalidate
+      1 "onCancel()"
+      1 "onSubmit(form.value)"
+      1 required
+      1 "submit" class="btn btn-default"
+      1 textarea
+      1 "text" class="form-control"
+      1 "Textinhalt eingeben."
+      1 "text" text="Inhalt"
+      1 "Titel eingeben."
+      1 "title" name="title"
+      1 "title" text="Titel"
+Total operands (first run): 54 of 39 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/blog/edit-blog-entry-form/edit-blog-entry-form.component.html: 39 : 54
+
+
+File: src/app/modules/blog/edit-blog-entry-form/edit-blog-entry-form.component.spec.ts
+-----------------------------
+with filtering:
+===============
+      2 ActivatedRoute
+      1 '@angular/core/testing'
+      1 '@angular/forms'
+      1 '@angular/material'
+      1 '@angular/platform-browser/animations'
+      1 '@angular/router'
+      1 '@angular/router/testing'
+      1 async
+      1 '../../auth/login/login.service'
+      1 '../../auth/login/login.service.mock'
+      1 '../../auth/user/user.service'
+      1 '../../auth/user/user.service.mock'
+      1 'A vanilla title'
+      1 '../blog.service'
+      2 blogService
+      2 _blogService
+      4 BlogService
+      1 '../blog.service.mock'
+      4 component
+      1 ComponentFixture
+      1 componentInstance
+      1 'dc2a4182-71a0-4fed-98dd-22b4d5104e40'
+      1 declarations
+      1 './edit-blog-entry-form.component'
+      4 EditBlogEntryFormComponent
+      1 'EditBlogEntryFormComponent'
+      2 errors
+      4 fixture
+      4 form
+      2 FormsModule
+      1 'id'
+      1 imports
+      1 inject
+      2 LoginService
+      1 MdSnackBar
+      2 MockBlogService
+      2 MockLoginService
+      2 MockUserService
+      1 NavigationEnd
+      1 'new'
+      2 NoopAnimationsModule
+      2 Observable
+      1 params
+      1 path
+      4 provide
+      1 providers
+      2 'required'
+      1 Router
+      2 RouterTestingModule
+      1 'rxjs/Rx'
+      2 SharedModule
+      1 '../../shared/shared.module'
+      1 'should create'
+      1 'should validate the title correctly'
+      1 snapshot
+      3 TestBed
+      1 'title'
+      4 titleControl
+      1 true
+      1 url
+      3 useClass
+      2 UserService
+      1 useValue
+Total operands (first run): 103 of 63 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/blog/edit-blog-entry-form/edit-blog-entry-form.component.spec.ts: 63 : 103
+
+
+File: src/app/modules/blog/edit-blog-entry-form/edit-blog-entry-form.component.ts
+-----------------------------
+with filtering:
+===============
+      1 _
+      2 '..'
+      1 0
+      3 activatedRoute
+      2 ActivatedRoute
+      1 '@angular/core'
+      1 '@angular/forms'
+      1 '@angular/material'
+      1 '@angular/router'
+      1 any
+      1 '../../auth/login/login.service'
+      3 author
+      2 back
+      5 BlogEntry
+      1 '../blog.service'
+      3 blogService
+      2 BlogService
+      1 Bug
+      3 callPath
+      1 can
+      1 'ck-edit-blog-entry-form'
+      1 Component
+      2 console
+      1 date
+      3 debug
+      1 '../../../../debug'
+      1 duration
+      1 EditBlogEntryFormComponent
+      1 './edit-blog-entry-form.component.html'
+      1 './edit-blog-entry-form.component.styl'
+      7 entry
+      7 _entry
+      1 EventEmitter
+      5 false
+      2 form
+      1 'form called with input parameter entry: '
+      2 formValue
+      1 get
+      2 Goes
+      4 id
+      1 'id'
+      1 Inject
+      1 Input
+      3 inputEntry
+      2 isEntryUser
+      1 'lodash'
+      4 loginService
+      2 LoginService
+      1 MdSnackBar
+      1 '../model-interfaces'
+      1 Needed
+      1 'new'
+      3 NgForm
+      1 ngOnInit
+      1 Object
+      1 'OK'
+      2 OnInit
+      1 only
+      1 optional
+      1 parameters
+      3 params
+      1 path
+      1 pristine
+      3 router
+      2 Router
+      1 routing
+      1 'rxjs/add/operator/mergeMap'
+      1 'rxjs/Subscription'
+      1 see
+      1 selector
+      1 set
+      1 'setting entry: '
+      3 show
+      2 snackBar
+      1 snapshot
+      1 string
+      1 styleUrls
+      2 subscription
+      2 Subscription
+      1 templateUrl
+      2 to
+      1 true
+      1 typeof
+      1 undefined
+      1 'undefined'
+      1 unit
+      1 url
+      3 user
+      1 ViewChild
+      1 with
+      1 work
+      1 'You can only edit your own entries'
+      1 5000
+Total operands (first run): 157 of 93 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/blog/edit-blog-entry-form/edit-blog-entry-form.component.ts: 93 : 157
+
+
+File: src/app/modules/blog/model-interfaces.ts
+-----------------------------
+with filtering:
+===============
+      1 BlogEntry
+      8 string
+      2 Tag
+Total operands (first run): 11 of 3 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/blog/model-interfaces.ts: 3 : 11
+
+
+File: src/app/modules/shared/dateFormat.pipe.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/common'
+      1 '@angular/core'
+      1 'dateFormatPipe'
+      1 DateFormatPipe
+      2 datePipe
+      1 DatePipe
+      1 'dd. MMMM. yyyy'
+      1 Inject
+      5 locale_id
+      2 LOCALE_ID
+      1 name
+      1 Pipe
+      2 PipeTransform
+      2 string
+      4 value
+Total operands (first run): 26 of 15 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/shared/dateFormat.pipe.ts: 15 : 26
+
+
+File: src/app/modules/shared/navbar/navbar.component.html
+-----------------------------
+with filtering:
+===============
+      4 a
+      1 "/admin" routerLinkActive="active" class="link"
+      1 "/blog" routerLinkActive="active" class="link"
+      1 "container-fluid"
+      1 div
+      1 "/login" routerLinkActive="active" class="link"
+      1 "nav navbar-nav navbar-left"
+      1 "/" routerLinkActive="active" class="link"
+      1 ul
+Total operands (first run): 12 of 9 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/shared/navbar/navbar.component.html: 9 : 12
+
+
+File: src/app/modules/shared/navbar/navbar.component.spec.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core/testing'
+      1 async
+      3 component
+      1 ComponentFixture
+      1 componentInstance
+      1 declarations
+      3 fixture
+      1 './navbar.component'
+      4 NavBarComponent
+      1 'NavBarComponent'
+      1 'should create'
+      3 TestBed
+Total operands (first run): 21 of 12 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/shared/navbar/navbar.component.spec.ts: 12 : 21
+
+
+File: src/app/modules/shared/navbar/navbar.component.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core'
+      1 'ck-navbar'
+      1 Component
+      1 NavBarComponent
+      1 './navbar.component.html'
+      1 './navbar.component.styl'
+      1 selector
+      1 styleUrls
+      1 templateUrl
+Total operands (first run): 9 of 9 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/shared/navbar/navbar.component.ts: 9 : 9
+
+
+File: src/app/modules/shared/navigation.service.ts
+-----------------------------
+with filtering:
+===============
+      1 '/'
+      1 '..'
+      1 activatedRoute
+      2 ActivatedRoute
+      1 '@angular/core'
+      1 '@angular/router'
+      1 Injectable
+      1 NavigationService
+      3 queryParams
+      2 redirect
+      1 'redirect'
+      3 router
+      1 Router
+Total operands (first run): 19 of 13 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/shared/navigation.service.ts: 13 : 19
+
+
+File: src/app/modules/shared/shared.module.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/common'
+      1 '@angular/core'
+      1 '@angular/forms'
+      1 '@angular/http'
+      1 '@angular/material'
+      1 '@angular/router'
+      1 '../auth/login/login.guard'
+      1 '../auth/login/login.service'
+      1 '../auth/user/user.service'
+      1 '../auth/user/user.store'
+      1 '../blog/blog.service'
+      1 '../blog/blog.store'
+      2 BlogService
+      2 BlogStore
+      3 CommonModule
+      1 './dateFormat.pipe'
+      1 DateFormatPipe
+      1 declarations
+      1 exports
+      3 FormsModule
+      3 HttpModule
+      1 imports
+      1 LoginGuard
+      2 LoginService
+      2 MdSnackBarModule
+      2 ModuleWithProviders
+      3 NavBarComponent
+      1 './navbar/navbar.component'
+      1 './navigation.service'
+      2 NavigationService
+      1 ngModule
+      1 NgModule
+      1 providers
+      2 RouterModule
+      2 SharedModule
+      3 ShowErrorComponent
+      1 './show-error/show-error.component'
+      2 UserService
+      2 UserStore
+Total operands (first run): 59 of 39 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/shared/shared.module.ts: 39 : 59
+
+
+File: src/app/modules/shared/show-error/show-error.component.html
+-----------------------------
+with filtering:
+===============
+      1 div
+      1 errorMessage
+      1 "let errorMessage of errorMessages"
+Total operands (first run): 3 of 3 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/shared/show-error/show-error.component.html: 3 : 3
+
+
+File: src/app/modules/shared/show-error/show-error.component.spec.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core/testing'
+      1 '@angular/forms'
+      1 async
+      3 component
+      1 ComponentFixture
+      1 componentInstance
+      1 declarations
+      3 fixture
+      1 NgForm
+      1 providers
+      1 'should create'
+      1 './show-error.component'
+      3 ShowErrorComponent
+      1 'ShowErrorComponent'
+      3 TestBed
+Total operands (first run): 23 of 15 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/shared/show-error/show-error.component.spec.ts: 15 : 23
+
+
+File: src/app/modules/shared/show-error/show-error.component.ts
+-----------------------------
+with filtering:
+===============
+      2 ''
+      1 '@angular/core'
+      1 '@angular/forms'
+      1 'ck-show-error'
+      3 code
+      1 Component
+      7 control
+      2 controlPath
+      2 displayName
+      2 error
+      4 errors
+      3 form
+      2 FormGroup
+      1 get
+      2 hasCode
+      1 in
+      1 Input
+      5 message
+      3 messages
+      1 'minlength'
+      1 muss
+      1 `${name} ist nicht gültig`
+      2 ngForm
+      2 NgForm
+      1 null
+      1 'path'
+      1 'required'
+      1 requiredLength
+      1 selector
+      1 ShowErrorComponent
+      1 './show-error.component.html'
+      1 './show-error.component.styl'
+      1 string
+      1 styleUrls
+      1 templateUrl
+      1 'text'
+      1 `${this.displayName} ist ein Pflichtfeld`
+      1 touched
+      1 Zeichen
+Total operands (first run): 66 of 39 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/app/modules/shared/show-error/show-error.component.ts: 39 : 66
+
+
+File: src/debug.ts
+-----------------------------
+with filtering:
+===============
+      2 debug
+      1 false
+Total operands (first run): 3 of 2 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/debug.ts: 2 : 3
+
+
+File: src/environments/environment.prod.ts
+-----------------------------
+with filtering:
+===============
+      1 environment
+      1 production
+Total operands (first run): 2 of 2 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/environments/environment.prod.ts: 2 : 2
+
+
+File: src/environments/environment.ts
+-----------------------------
+with filtering:
+===============
+      1 environment
+      1 production
+Total operands (first run): 2 of 2 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/environments/environment.ts: 2 : 2
+
+
+File: src/index.html
+-----------------------------
+with filtering:
+===============
+      1 "/"
+      1 base
+      1 "icon" type="image/x-icon" href="assets/favicon.ico"
+      1 link
+      1 Loading
+      2 meta
+      1 "utf-8"
+      1 "viewport" content="width=device-width, initial-scale=1"
+Total operands (first run): 9 of 8 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/index.html: 8 : 9
+
+
+File: src/main.ts
+-----------------------------
+with filtering:
+===============
+      1 '@angular/core'
+      1 '@angular/platform-browser-dynamic'
+      1 './app/app.module'
+      2 AppModule
+      1 enableProdMode
+      2 environment
+      1 './environments/environment'
+      1 platformBrowserDynamic
+      1 production
+Total operands (first run): 11 of 9 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/main.ts: 9 : 11
+
+
+File: src/polyfills.ts
+-----------------------------
+with filtering:
+===============
+      1 Angular
+      1 CLI
+      1 'core-js/es6/reflect'
+      1 'core-js/es7/reflect'
+      1 Included
+      1 with
+      1 'zone.js/dist/zone'
+Total operands (first run): 7 of 7 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/polyfills.ts: 7 : 7
+
+
+File: src/test.ts
+-----------------------------
+with filtering:
+===============
+      1 './'
+      1 '@angular/core/testing'
+      1 '@angular/platform-browser-dynamic/testing'
+      2 any
+      2 BrowserDynamicTestingModule
+      3 context
+      2 declare
+      1 function
+      1 getTestBed
+      3 __karma__
+      1 loaded
+      2 require
+      1 true
+      1 'zone.js/dist/async-test'
+      1 'zone.js/dist/fake-async-test'
+      1 'zone.js/dist/jasmine-patch'
+      1 'zone.js/dist/long-stack-trace-zone'
+      1 'zone.js/dist/proxy.js'
+      1 'zone.js/dist/sync-test'
+Total operands (first run): 27 of 19 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/test.ts: 19 : 27
+
+
+File: src/typings.d.ts
+-----------------------------
+with filtering:
+===============
+      1 declare
+      1 definition
+      1 id
+      2 module
+      2 NodeModule
+      1 string
+      1 SystemJS
+Total operands (first run): 9 of 7 unique operands
+
+2nd run / corrections: 
+Total corrections to count: 0 of 0 unique operators
+
+n2 and N2 for src/typings.d.ts: 7 : 9
+
+

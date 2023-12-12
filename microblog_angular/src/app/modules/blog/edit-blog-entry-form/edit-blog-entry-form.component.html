@@ -1,0 +1,46 @@
+<form novalidate (ngSubmit)="onSubmit(form.value)"
+        #form="ngForm" *ngIf="show"> 
+    <div class="form-group">
+        <input type="hidden" class="hidden"
+            id="id" name="id"
+            [(ngModel)]="entry.id" #id="ngModel" />
+        <!-- TODO: make this field editable -->
+        <input type="hidden" class="hidden"
+            id="author" name="author"
+            [(ngModel)]="entry.author" #author="ngModel" />
+        <label>Titel</label>
+        <input type="text" class="form-control"
+            id="title" name="title"
+            [(ngModel)]="entry.title" #title="ngModel"
+            placeholder="Titel eingeben."
+            required minlength="5" maxlength="128"/>
+        <ck-show-error path="title" text="Titel"></ck-show-error>
+    </div>
+    <div class="form-group">
+        <label>Inhalt</label>
+        <textarea class="form-control" id="text" name="text"
+            [(ngModel)]="entry.text" #text="ngModel"
+            placeholder="Textinhalt eingeben.">
+        </textarea>
+        <ck-show-error path="text" text="Inhalt"></ck-show-error>
+    </div>
+    <!-- TODO: async http-check for image availability?       -->
+    <!-- Be aware: that would impede reproducability for any  -->
+    <!-- performance tests, if done with external images!     -->
+    <div class="form-group">
+        <label>Bild-URL</label>
+        <input class="form-control" type="text" id="image" name="image"
+            [(ngModel)]="entry.image" #image="ngModel"
+            placeholder="Bildadresse eingeben." />
+        <ck-show-error path="image" text="Bild-URL"></ck-show-error>
+    </div>
+    <button type="submit" class="btn btn-default"
+        [disabled]="form.pristine || !form.valid">
+        Blogeintrag speichern
+    </button>
+    <button type="button" class="btn btn-default"
+        [disabled]="form.submitting"
+        (click)="onCancel()">
+        Zurücksetzen
+    </button>
+</form>

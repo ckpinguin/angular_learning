@@ -1,0 +1,28 @@
+<form novalidate (ngSubmit)="onSubmit(form.value); form.reset()"
+        #form="ngForm">
+    <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control"
+            id="name" name="name"
+            placeholder="Name eingeben."
+            ngModel required minlength="4" maxlength="32"/>
+        <ck-show-error path="name" text="Name"></ck-show-error>
+    </div>
+    <div class="form-group">
+        <label>Passwort</label>
+        <input type="password" class="form-control"
+            id="password" name="password" 
+            placeholder="Passwort eingeben."
+            ngModel required />
+        <ck-show-error path="password" text="Passwort"></ck-show-error>
+    </div>
+    <button type="button" class="btn btn-default"
+        (click)="onSubmit(form.value)"
+        [disabled]="!form.valid">
+        Login
+    </button>
+    <button type="button" class="btn btn-default"
+        (click)="onCancel(true)">
+        Abbrechen
+    </button>
+</form>

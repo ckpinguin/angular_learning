@@ -1,0 +1,17 @@
+<div class="title">
+    <h1>{{title}}</h1>
+</div>
+<div class="mainContent">
+    <button [routerLink]="[ 'new' ]"
+        *ngIf="!pathNew"
+        class="btn">
+        Create New Entry
+    </button>
+    <router-outlet></router-outlet>
+</div>
+<div class="jumbotron">
+    <h2>Attention item</h2>
+    <router-outlet name="attention-outlet"></router-outlet>
+</div>
+<router-outlet name="list-outlet"></router-outlet>
+<!--<ck-blog-list></ck-blog-list>-->

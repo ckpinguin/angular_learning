@@ -1,0 +1,22 @@
+<div>
+    <!-- TODO: common ancestor component, so the list will be updated, when
+    a new hero is added -->
+    <toh-hero-add [(selectedHero)]="selectedHero"></toh-hero-add>
+    <h2>All Heroes</h2>
+    <ul class="heroes">
+        <li *ngFor="let hero of heroes"
+            [class.selected]="hero === selectedHero"
+            (click)="onSelect(hero)">
+            <span class="badge">{{hero.id}}</span>
+            {{hero === selectedHero ? (hero.name | uppercase) : hero.name}}
+            <button class="delete"
+                (click)="delete(hero); $event.stopPropagation()">x</button>
+        </li>
+    </ul>
+    <div *ngIf="selectedHero">
+        <h2>
+            {{selectedHero.name | uppercase}} is my hero
+        </h2>
+        <button (click)="gotoDetail()">View Details</button>
+    </div>
+</div>

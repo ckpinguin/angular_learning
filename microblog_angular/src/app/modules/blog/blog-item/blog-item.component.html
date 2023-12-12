@@ -1,0 +1,23 @@
+<div class="blog-item" >
+    <hr />
+    <router-outlet></router-outlet>
+    <div class="item-outlet">
+    </div>
+    <div class="blog-image">
+        <img *ngIf="item.image" [src]="imageWithPath" [alt]="item.title" />
+    </div>
+    <div class="blog-summary">
+        <h2>
+            {{item?.title}}<br />
+            <div class="fa fa-trash"
+                 (click)="onDelete(item.id)"></div>
+            <div class="fa fa-edit"
+                 [routerLink]="[ item.id, 'edit' ]"
+            ></div>
+        </h2>
+        <div *ngIf="item.author"><h3><small>Written by: <em>{{item?.author}}</em></small></h3>
+            <div *ngIf="item.date"><h3><small> on <em>{{item?.date | dateFormatPipe }}</em></small></h3></div>
+        </div>
+        <p>{{item?.text}}</p>
+    </div>
+</div>

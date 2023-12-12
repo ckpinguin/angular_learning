@@ -1,0 +1,12 @@
+<div class="listContent">
+    <router-outlet></router-outlet>
+    <ng-container *ngFor="let entry of entries$ | async">
+        <!-- only show, when the new entry is in editing mode -->
+        <!--<ck-edit-blog-entry-form *ngIf="entry.editing" [inputEntry]="entry"></ck-edit-blog-entry-form>-->
+        <!-- only show entries with title (new entry does not have one yet) -->
+        <ck-blog-item
+            *ngIf="entry.title"
+            [item]="entry">
+        </ck-blog-item>
+    </ng-container>
+</div>

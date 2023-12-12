@@ -1,0 +1,1023 @@
+File: src/app/app.component.html
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/app.component.html: 0 : 0
+
+
+File: src/app/app.component.spec.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/app.component.spec.ts: 0 : 0
+
+
+File: src/app/app.component.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+      1 if 
+      1 while 
+counted: 2 n=2 e=4
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/app.component.ts: 2 : 4
+
+
+File: src/app/app.module.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/app.module.ts: 0 : 0
+
+
+File: src/app/app.routing.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/app.routing.ts: 0 : 0
+
+
+File: src/app/app.tokens.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/app.tokens.ts: 0 : 0
+
+
+File: src/app/modules/admin/admin-page/admin-page.component.html
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/admin/admin-page/admin-page.component.html: 0 : 0
+
+
+File: src/app/modules/admin/admin-page/admin-page.component.spec.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/admin/admin-page/admin-page.component.spec.ts: 0 : 0
+
+
+File: src/app/modules/admin/admin-page/admin-page.component.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/admin/admin-page/admin-page.component.ts: 0 : 0
+
+
+File: src/app/modules/admin/admin.module.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/admin/admin.module.ts: 0 : 0
+
+
+File: src/app/modules/admin/admin.routing.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/admin/admin.routing.ts: 0 : 0
+
+
+File: src/app/modules/auth/auth-component/auth.component.spec.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/auth/auth-component/auth.component.spec.ts: 0 : 0
+
+
+File: src/app/modules/auth/auth-component/auth.component.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/auth/auth-component/auth.component.ts: 0 : 0
+
+
+File: src/app/modules/auth/auth.module.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/auth/auth.module.ts: 0 : 0
+
+
+File: src/app/modules/auth/auth.routing.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/auth/auth.routing.ts: 0 : 0
+
+
+File: src/app/modules/auth/login/login-form/login-form.component.html
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/auth/login/login-form/login-form.component.html: 0 : 0
+
+
+File: src/app/modules/auth/login/login-form/login-form.component.spec.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/auth/login/login-form/login-form.component.spec.ts: 0 : 0
+
+
+File: src/app/modules/auth/login/login-form/login-form.component.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+      1 if 
+counted: 1 n=1 e=2
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/auth/login/login-form/login-form.component.ts: 1 : 2
+
+
+File: src/app/modules/auth/login/login-page/login-page.component.html
+-----------------------------
+NODE1_EDGE2:
+===============
+      2 *ngIf=
+counted: 2 n=2 e=4
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/auth/login/login-page/login-page.component.html: 2 : 4
+
+
+File: src/app/modules/auth/login/login-page/login-page.component.spec.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/auth/login/login-page/login-page.component.spec.ts: 0 : 0
+
+
+File: src/app/modules/auth/login/login-page/login-page.component.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+      4 if 
+counted: 4 n=4 e=8
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/auth/login/login-page/login-page.component.ts: 4 : 8
+
+
+File: src/app/modules/auth/login/login.guard.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+      1 if 
+counted: 1 n=1 e=2
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/auth/login/login.guard.ts: 1 : 2
+
+
+File: src/app/modules/auth/login/login.service.mock.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+      1 if 
+counted: 1 n=1 e=2
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/auth/login/login.service.mock.ts: 1 : 2
+
+
+File: src/app/modules/auth/login/login.service.spec.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/auth/login/login.service.spec.ts: 0 : 0
+
+
+File: src/app/modules/auth/login/login.service.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+      3 if 
+counted: 3 n=3 e=6
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/auth/login/login.service.ts: 3 : 6
+
+
+File: src/app/modules/auth/user/model-interfaces.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/auth/user/model-interfaces.ts: 0 : 0
+
+
+File: src/app/modules/auth/user/user.service.mock.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/auth/user/user.service.mock.ts: 0 : 0
+
+
+File: src/app/modules/auth/user/user.service.spec.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/auth/user/user.service.spec.ts: 0 : 0
+
+
+File: src/app/modules/auth/user/user.service.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+      1  ? EDIT :
+      1 if 
+counted: 2 n=2 e=4
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/auth/user/user.service.ts: 2 : 4
+
+
+File: src/app/modules/auth/user/user.store.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+      3 if 
+counted: 3 n=3 e=6
+NODE1_EDGE1:
+===============
+      1 switch 
+counted: 1 n=1 e=1
+EDGE1:
+===============
+      4 case 
+counted: 4 e=4
+
+n and e for src/app/modules/auth/user/user.store.ts: 4 : 11
+
+
+File: src/app/modules/blog/blog-item/blog-item.component.html
+-----------------------------
+NODE1_EDGE2:
+===============
+      3 *ngIf=
+counted: 3 n=3 e=6
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/blog/blog-item/blog-item.component.html: 3 : 6
+
+
+File: src/app/modules/blog/blog-item/blog-item.component.spec.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/blog/blog-item/blog-item.component.spec.ts: 0 : 0
+
+
+File: src/app/modules/blog/blog-item/blog-item.component.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+      1                     :
+      1 if 
+counted: 2 n=2 e=4
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/blog/blog-item/blog-item.component.ts: 2 : 4
+
+
+File: src/app/modules/blog/blog-list/blog-list.component.html
+-----------------------------
+NODE1_EDGE2:
+===============
+      1 *ngFor=
+counted: 1 n=1 e=2
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/blog/blog-list/blog-list.component.html: 1 : 2
+
+
+File: src/app/modules/blog/blog-list/blog-list.component.spec.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/blog/blog-list/blog-list.component.spec.ts: 0 : 0
+
+
+File: src/app/modules/blog/blog-list/blog-list.component.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/blog/blog-list/blog-list.component.ts: 0 : 0
+
+
+File: src/app/modules/blog/blog-page/blog-page.component.html
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/blog/blog-page/blog-page.component.html: 0 : 0
+
+
+File: src/app/modules/blog/blog-page/blog-page.component.spec.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/blog/blog-page/blog-page.component.spec.ts: 0 : 0
+
+
+File: src/app/modules/blog/blog-page/blog-page.component.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+      3 if 
+counted: 3 n=3 e=6
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/blog/blog-page/blog-page.component.ts: 3 : 6
+
+
+File: src/app/modules/blog/blog.module.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/blog/blog.module.ts: 0 : 0
+
+
+File: src/app/modules/blog/blog.routing.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/blog/blog.routing.ts: 0 : 0
+
+
+File: src/app/modules/blog/blog.service.mock.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/blog/blog.service.mock.ts: 0 : 0
+
+
+File: src/app/modules/blog/blog.service.spec.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/blog/blog.service.spec.ts: 0 : 0
+
+
+File: src/app/modules/blog/blog.service.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+      1  ? EDIT :
+      1 if 
+counted: 2 n=2 e=4
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/blog/blog.service.ts: 2 : 4
+
+
+File: src/app/modules/blog/blog.store.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+      3 if 
+counted: 3 n=3 e=6
+NODE1_EDGE1:
+===============
+      1 switch 
+counted: 1 n=1 e=1
+EDGE1:
+===============
+      4 case 
+counted: 4 e=4
+
+n and e for src/app/modules/blog/blog.store.ts: 4 : 11
+
+
+File: src/app/modules/blog/edit-blog-entry-form/edit-blog-entry-form.component.html
+-----------------------------
+NODE1_EDGE2:
+===============
+      1 *ngIf=
+counted: 1 n=1 e=2
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/blog/edit-blog-entry-form/edit-blog-entry-form.component.html: 1 : 2
+
+
+File: src/app/modules/blog/edit-blog-entry-form/edit-blog-entry-form.component.spec.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/blog/edit-blog-entry-form/edit-blog-entry-form.component.spec.ts: 0 : 0
+
+
+File: src/app/modules/blog/edit-blog-entry-form/edit-blog-entry-form.component.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+      5 if 
+      1  ? this._entry.author :
+counted: 6 n=6 e=12
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/blog/edit-blog-entry-form/edit-blog-entry-form.component.ts: 6 : 12
+
+
+File: src/app/modules/blog/model-interfaces.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/blog/model-interfaces.ts: 0 : 0
+
+
+File: src/app/modules/shared/dateFormat.pipe.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/shared/dateFormat.pipe.ts: 0 : 0
+
+
+File: src/app/modules/shared/navbar/navbar.component.html
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/shared/navbar/navbar.component.html: 0 : 0
+
+
+File: src/app/modules/shared/navbar/navbar.component.spec.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/shared/navbar/navbar.component.spec.ts: 0 : 0
+
+
+File: src/app/modules/shared/navbar/navbar.component.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/shared/navbar/navbar.component.ts: 0 : 0
+
+
+File: src/app/modules/shared/navigation.service.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/shared/navigation.service.ts: 0 : 0
+
+
+File: src/app/modules/shared/shared.module.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/shared/shared.module.ts: 0 : 0
+
+
+File: src/app/modules/shared/show-error/show-error.component.html
+-----------------------------
+NODE1_EDGE2:
+===============
+      1 *ngFor=
+      1 *ngIf=
+counted: 2 n=2 e=4
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/shared/show-error/show-error.component.html: 2 : 4
+
+
+File: src/app/modules/shared/show-error/show-error.component.spec.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/app/modules/shared/show-error/show-error.component.spec.ts: 0 : 0
+
+
+File: src/app/modules/shared/show-error/show-error.component.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+      1 for 
+      2 if 
+counted: 3 n=3 e=6
+NODE1_EDGE1:
+===============
+      1 switch 
+counted: 1 n=1 e=1
+EDGE1:
+===============
+      2 case 
+counted: 2 e=2
+
+n and e for src/app/modules/shared/show-error/show-error.component.ts: 4 : 9
+
+
+File: src/debug.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/debug.ts: 0 : 0
+
+
+File: src/environments/environment.prod.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/environments/environment.prod.ts: 0 : 0
+
+
+File: src/environments/environment.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/environments/environment.ts: 0 : 0
+
+
+File: src/index.html
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/index.html: 0 : 0
+
+
+File: src/main.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+      1 if 
+counted: 1 n=1 e=2
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/main.ts: 1 : 2
+
+
+File: src/polyfills.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/polyfills.ts: 0 : 0
+
+
+File: src/test.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/test.ts: 0 : 0
+
+
+File: src/typings.d.ts
+-----------------------------
+NODE1_EDGE2:
+===============
+counted: 0 n=0 e=0
+NODE1_EDGE1:
+===============
+counted: 0 n=0 e=0
+EDGE1:
+===============
+counted: 0 e=0
+
+n and e for src/typings.d.ts: 0 : 0
+
+

@@ -1,0 +1,9 @@
+<div class="title">
+    <h1>{{title}}</h1>
+</div>
+<div class="mainContent" *ngIf="!showForm">
+    <p>Already logged in with user {{currentUser}}</p>
+</div>
+<div class="mainContent" *ngIf="showForm">
+    <ck-login-form (onCancel)="onCancel($event)" (onSubmit)="onLogin($event)"></ck-login-form>
+</div>
